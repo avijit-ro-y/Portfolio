@@ -19,7 +19,7 @@ const renderText = (text, className, baseWeight = 400) => {
 }
 
 const setupTextHover = (container,type) =>{
-    if(!container) return;  ///ekhne vul ache ektu 
+    if(!container) return () => {};  ///ekhne vul ache ektu 
 
     const letters = container.querySelectorAll('span');
     const {min,max,default:base} = FONT_WEIGHTS[type];
