@@ -241,7 +241,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "RAG",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -249,39 +249,51 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Retrieval-Augmented Generation",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Built an end-to-end Retrieval-Augmented Generation (RAG) system using Python and Large Language Models.",
+            "Implemented document ingestion, preprocessing, chunking, vector embedding generation and semantic search.",
+            "Integrated vector database retrieval with Gemini/OpenAI models to generate context-aware responses.",
+            "Added evaluation metrics including Faithfulness, Context Precision, Context Recall and Answer Relevancy.",
+            "Designed modular architecture with separate ingestion, retrieval and generation pipelines."
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "GitHub Link",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://github.com/avijit-ro-y/RAG",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "RAG Gallery",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          images: [
+              "/images/RAG-1.png",
+              "/images/RAG-2.png",
+              "/images/RAG-3.png",
+              "/images/RAG-4.png",
+              "/images/RAG-5.png",
+              "/images/RAG-6.png",
+              "/images/RAG-7.png",
+              "/images/RAG-8.png",
+              "/images/RAG-9.png",
+              "/images/RAG-10.png",
+          ]
         },
         {
           id: 5,
-          name: "Design.fig",
+          name: "Live Link",
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
